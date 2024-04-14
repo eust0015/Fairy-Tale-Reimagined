@@ -6,7 +6,7 @@ using UnityEngine.Events;
 
 public class TextButton : MonoBehaviour
 {
-    [SerializeField] private TextTyper textTyper;
+    [SerializeField] private TextTyper.TextTyper textTyper;
     [SerializeField] private UnityEvent nextDialogue = new UnityEvent();
     
     public void OnClick()

@@ -8,7 +8,7 @@ using UnityEngine.Serialization;
 
 public class Talker : MonoBehaviour
 {
-    [SerializeField] private TextTyper textTyper;
+    [SerializeField] private TextTyper.TextTyper textTyper;
     [SerializeField] private TextMeshProUGUI textBox;
     
     private void OnEnable()

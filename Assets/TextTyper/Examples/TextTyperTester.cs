@@ -1,12 +1,10 @@
-﻿namespace RedBlueGames.Tools.TextTyper
-{
-    using UnityEngine;
-    using System.Collections;
-    using System.Collections.Generic;
-    using RedBlueGames.Tools.TextTyper;
-    using UnityEngine.UI;
-    using TMPro;
+﻿using System.Collections.Generic;
+using RedBlueGames.Tools.TextTyper;
+using UnityEngine;
+using UnityEngine.UI;
 
+namespace TextTyper.Examples
+{
     /// <summary>
     /// Class that tests TextTyper and shows how to interface with it.
     /// </summary>
@@ -31,7 +29,7 @@
 
         [SerializeField]
         [Tooltip("The text typer element to test typing with")]
-        private TextTyper testTextTyper;
+        private global::TextTyper.TextTyper testTextTyper;
 
 #pragma warning restore 0649
         public void Start()

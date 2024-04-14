@@ -1,12 +1,13 @@
-﻿namespace RedBlueGames.Tools.TextTyper
-{
-    using System.Collections;
-    using System.Collections.Generic;
-    using TMPro;
-    using UnityEngine;
-    using UnityEngine.Events;
-    using UnityEngine.UI;
+﻿using System.Collections;
+using System.Collections.Generic;
+using RedBlueGames.Tools.TextTyper;
+using TMPro;
+using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.Serialization;
 
+namespace TextTyper
+{
     /// <summary>
     /// Type text component types out Text one character at a time. Heavily adapted from synchrok's GitHub project.
     /// </summary>
@@ -16,13 +17,14 @@
         /// <summary>
         /// The print delay setting. Could make this an option some day, for fast readers.
         /// </summary>
-        [SerializeField] private float PrintDelaySetting = 0.02f;
+        [FormerlySerializedAs("PrintDelaySetting")] public float printDelaySetting = 0.02f;
 
         /// <summary>
         /// Default delay setting will be multiplied by this when the character is a punctuation mark
         /// </summary>
+        [FormerlySerializedAs("PunctuationDelayMultiplier")]
         [Tooltip("Default delay setting will be multiplied by this when the character is a punctuation mark.")]
-        [SerializeField] private float PunctuationDelayMultiplier = 8f;
+        [SerializeField] private float punctuationDelayMultiplier = 8f;
 
         // Characters that are considered punctuation in this language. TextTyper pauses on these characters
         // a bit longer by default. Could be a setting sometime since this doesn't localize.
@@ -127,7 +129,7 @@
                 Destroy(anim);
             }
 
-            this.defaultPrintDelay = printDelay > 0 ? printDelay : PrintDelaySetting;
+            this.defaultPrintDelay = printDelay > 0 ? printDelay : printDelaySetting;
             this.ProcessTags(text);
 
             // Fix Issue-38 by clearing any old textInfo like sprites, so that SubMesh objects don't reshow their contents.
@@ -300,7 +302,7 @@
                     characterToType.Delay = nextDelay;
                     if (punctutationCharacters.Contains(symbol.Character))
                     {
-                        characterToType.Delay *= PunctuationDelayMultiplier;
+                        characterToType.Delay *= punctuationDelayMultiplier;
                     }
 
                     this.charactersToType.Add(characterToType);
