@@ -104,8 +104,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Option 04
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 65778d33d79ca284fa469185f5eb4cb9, type: 2}
+  m_sharedMaterial: {fileID: -7348812554792686391, guid: 65778d33d79ca284fa469185f5eb4cb9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1538,8 +1538,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Option 01
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 65778d33d79ca284fa469185f5eb4cb9, type: 2}
+  m_sharedMaterial: {fileID: -7348812554792686391, guid: 65778d33d79ca284fa469185f5eb4cb9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1679,8 +1679,8 @@ MonoBehaviour:
     Shake</anim>, Sample Curve Animations: <animation=slowsine>Slow Sine</animation>,
     <animation=bounce>Bounce Bounce</animation>, <animation=crazyflip>Crazy Flip</animation>'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 65778d33d79ca284fa469185f5eb4cb9, type: 2}
+  m_sharedMaterial: {fileID: -7348812554792686391, guid: 65778d33d79ca284fa469185f5eb4cb9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1983,8 +1983,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Option 03
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 65778d33d79ca284fa469185f5eb4cb9, type: 2}
+  m_sharedMaterial: {fileID: -7348812554792686391, guid: 65778d33d79ca284fa469185f5eb4cb9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2262,8 +2262,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Wolf
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 65778d33d79ca284fa469185f5eb4cb9, type: 2}
+  m_sharedMaterial: {fileID: -7348812554792686391, guid: 65778d33d79ca284fa469185f5eb4cb9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3425,8 +3425,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Option 02
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 65778d33d79ca284fa469185f5eb4cb9, type: 2}
+  m_sharedMaterial: {fileID: -7348812554792686391, guid: 65778d33d79ca284fa469185f5eb4cb9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
