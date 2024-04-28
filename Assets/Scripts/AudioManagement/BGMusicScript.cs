@@ -11,19 +11,13 @@ public class BGMusicScript : MonoBehaviour
     private BGTrack targetSong;
     private void Awake()
     {
-        if (GameObject.FindGameObjectsWithTag("MusicManager").Length > 1)
-        {
-            Destroy(GameObject.FindGameObjectsWithTag("MusicManager")[0]);
-        }
         self = this;
-        DontDestroyOnLoad(gameObject);
     }
     void Start()
     {
         audioClips = new BGTrack[transform.childCount];
         for(int i = 0; i < audioClips.Length; i++)
         {
-            Debug.Log(i);
             audioClips[i] = transform.GetChild(i).GetComponent<BGTrack>();
         }
         FadeTo("MenuMusic");
@@ -50,11 +44,11 @@ public class BGMusicScript : MonoBehaviour
     {
         if(audioManager.clip != targetSong.music)
         {
-            if(audioManager.volume < 0)
+            if(audioManager.volume <= 0)
             {
                 audioManager.clip = targetSong.music;
-                audioManager.Play();
                 audioManager.time = targetSong.musicPosition;
+                audioManager.Play(); 
             }
             else
             {
