@@ -20,7 +20,7 @@ public class BGMusicScript : MonoBehaviour
         {
             audioClips[i] = transform.GetChild(i).GetComponent<BGTrack>();
         }
-        FadeTo("MenuMusic");
+        FadeTo("SDE");
     }
     void Update()
     {
@@ -31,12 +31,29 @@ public class BGMusicScript : MonoBehaviour
     }
     public void FadeTo(string newTrack)
     {
+        if(targetSong)
+        {
+            for (int i = 0; i < audioClips.Length; i++)
+            {
+                if (audioClips[i].musicName == targetSong.musicName)
+                {
+                    audioClips[i].musicPosition = targetSong.musicPosition;
+                }
+            }
+        }
+
+        bool found = false;
         for (int i = 0; i < audioClips.Length; i++)
         {
             if (audioClips[i].musicName == newTrack)
             {
                 targetSong = audioClips[i];
+                found = true;
             }
+        }
+        if(!found)
+        {
+            FadeTo("Silence");
         }
     }
 
