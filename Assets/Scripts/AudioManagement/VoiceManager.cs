@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class VoiceManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private AudioClip[] voiceLines;
+    [SerializeField] private AudioSource player;
+    public void PlayVoiceLine(string vlName)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        for(int i = 0; i < voiceLines.Length; i++)
+        {
+            player.clip = voiceLines[i];
+            if(player.clip.name == vlName)
+            {
+                return;
+            }
+        }
     }
 }
