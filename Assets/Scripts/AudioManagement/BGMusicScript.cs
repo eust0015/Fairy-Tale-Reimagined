@@ -33,12 +33,12 @@ public class BGMusicScript : MonoBehaviour
     {
         if(targetSong)
         {
-            Debug.Log(targetSong.musicName);
+            //Debug.Log(targetSong.musicName);
             for (int i = 0; i < audioClips.Length; i++)
             {
                 if (audioClips[i].musicName == targetSong.musicName)
                 {
-                    Debug.Log("set");
+                    //Debug.Log("set");
                     audioClips[i].musicPosition = audioManager.time;
                 }
             }
