@@ -40994,7 +40994,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2800522832376501472, guid: 447f67fb3da64854ea75c540b2fef78c, type: 3}
       propertyPath: fadeSpeed
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5323445836588397188, guid: 447f67fb3da64854ea75c540b2fef78c, type: 3}
       propertyPath: m_TagString
@@ -46047,27 +46047,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4012276780083478900, guid: cec539b27130a02409656189a4125b95, type: 3}
       propertyPath: nextDialogue.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4012276780083478900, guid: cec539b27130a02409656189a4125b95, type: 3}
       propertyPath: nextDialogue.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1859694057}
+      objectReference: {fileID: 835732341}
     - target: {fileID: 4012276780083478900, guid: cec539b27130a02409656189a4125b95, type: 3}
       propertyPath: nextDialogue.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4012276780083478900, guid: cec539b27130a02409656189a4125b95, type: 3}
       propertyPath: nextDialogue.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayMusic
+      value: NextDialogue
       objectReference: {fileID: 0}
     - target: {fileID: 4012276780083478900, guid: cec539b27130a02409656189a4125b95, type: 3}
       propertyPath: nextDialogue.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: AudioManager, Assembly-CSharp
+      value: Dialogue, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4012276780083478900, guid: cec539b27130a02409656189a4125b95, type: 3}
       propertyPath: nextDialogue.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
-      value: EndMusic1
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4012276780083478900, guid: cec539b27130a02409656189a4125b95, type: 3}
       propertyPath: nextDialogue.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
