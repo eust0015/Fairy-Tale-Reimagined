@@ -94,7 +94,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicName: EndMusic1
   music: {fileID: 8300000, guid: e566db9bc9f53124e8214ce1aaeec5b5, type: 3}
-  musicVolume: 1
+  musicVolume: 0.856
   musicPosition: 0
 --- !u!1 &5323445836588397188
 GameObject:
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17664777d1d320e489ad2d50aa8a04ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 3
+  fadeSpeed: 1
   audioManager: {fileID: 7545126203798993617}
   audioClips:
   - {fileID: 3988871219382442018}
@@ -1382,7 +1382,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8899946459306291255, guid: 349102cc75411144dac63e421a9e3823, type: 3}
       propertyPath: musicVolume
-      value: 0.871
+      value: 0.786
       objectReference: {fileID: 0}
     - target: {fileID: 2836271500632071964, guid: 349102cc75411144dac63e421a9e3823, type: 3}
       propertyPath: m_Name
@@ -2002,7 +2002,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8899946459306291255, guid: 349102cc75411144dac63e421a9e3823, type: 3}
       propertyPath: musicVolume
-      value: 0.871
+      value: 0.224
       objectReference: {fileID: 0}
     - target: {fileID: 2836271500632071964, guid: 349102cc75411144dac63e421a9e3823, type: 3}
       propertyPath: m_Name
@@ -2154,7 +2154,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8899946459306291255, guid: 349102cc75411144dac63e421a9e3823, type: 3}
       propertyPath: musicVolume
-      value: 0.871
+      value: 0.716
       objectReference: {fileID: 0}
     - target: {fileID: 2836271500632071964, guid: 349102cc75411144dac63e421a9e3823, type: 3}
       propertyPath: m_Name
@@ -2221,14 +2221,14 @@ PrefabInstance:
     - target: {fileID: -8899946459306291255, guid: 349102cc75411144dac63e421a9e3823, type: 3}
       propertyPath: music
       value: 
-      objectReference: {fileID: 8300000, guid: 6b93dbb3dd1b9d84990fc28428f9d95b, type: 3}
+      objectReference: {fileID: 8300000, guid: 2afe6be39dc4b394dbeb89e0d6f930ed, type: 3}
     - target: {fileID: -8899946459306291255, guid: 349102cc75411144dac63e421a9e3823, type: 3}
       propertyPath: musicName
       value: CheerfullMusic
       objectReference: {fileID: 0}
     - target: {fileID: -8899946459306291255, guid: 349102cc75411144dac63e421a9e3823, type: 3}
       propertyPath: musicVolume
-      value: 0.871
+      value: 0.269
       objectReference: {fileID: 0}
     - target: {fileID: 2836271500632071964, guid: 349102cc75411144dac63e421a9e3823, type: 3}
       propertyPath: m_Name
