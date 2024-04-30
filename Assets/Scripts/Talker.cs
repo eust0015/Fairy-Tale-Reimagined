@@ -1,4 +1,4 @@
-using System;
+
 using System.Collections;
 using System.Collections.Generic;
 using RedBlueGames.Tools.TextTyper;
@@ -13,6 +13,7 @@ public class Talker : MonoBehaviour
     
     private void OnEnable()
     {
+        AudioManager.SharedInstance.PlaySoundEffect("Text"+(int)Random.Range(1,5));
         textTyper.TypeText(textBox.text);
     }
 }
