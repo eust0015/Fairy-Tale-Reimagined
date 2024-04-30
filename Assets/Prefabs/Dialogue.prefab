@@ -711,6 +711,7 @@ GameObject:
   - component: {fileID: 2545036229247110959}
   - component: {fileID: 7455973002227350837}
   - component: {fileID: 113326832345765453}
+  - component: {fileID: 4722221514743755521}
   m_Layer: 5
   m_Name: CreditsButton
   m_TagString: Untagged
@@ -820,10 +821,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 4722221514743755521}
+        m_TargetAssemblyTypeName: CreditsButton, Assembly-CSharp
+        m_MethodName: Click
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -832,6 +833,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &4722221514743755521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3235690976247623477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8478f9eab636b942875ab4e89e9f7ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3240248390551702042
 GameObject:
   m_ObjectHideFlags: 0
@@ -1795,6 +1808,7 @@ GameObject:
   - component: {fileID: 3950538742271427417}
   - component: {fileID: 1592873817363936684}
   - component: {fileID: 582055132471128415}
+  - component: {fileID: 5605682241898478809}
   m_Layer: 5
   m_Name: AchievementsButton
   m_TagString: Untagged
@@ -1904,10 +1918,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 5605682241898478809}
+        m_TargetAssemblyTypeName: AchievementsButton, Assembly-CSharp
+        m_MethodName: Click
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1916,6 +1930,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &5605682241898478809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6021058025232394170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3a36d13696d4c4898ffc95d7824a87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6217782577840473444
 GameObject:
   m_ObjectHideFlags: 0
@@ -3237,6 +3263,7 @@ GameObject:
   - component: {fileID: 4527544657694835173}
   - component: {fileID: 7973645671565384086}
   - component: {fileID: 7795745423859247138}
+  - component: {fileID: 1811879275224080886}
   m_Layer: 5
   m_Name: ConfigurationButton
   m_TagString: Untagged
@@ -3346,10 +3373,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1811879275224080886}
+        m_TargetAssemblyTypeName: ConfigurationButton, Assembly-CSharp
+        m_MethodName: Click
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3358,6 +3385,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &1811879275224080886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8244660888907454655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 094ba5d39200a544eaa582ae922fd3ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8320529150841842995
 GameObject:
   m_ObjectHideFlags: 0
