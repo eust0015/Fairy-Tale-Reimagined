@@ -16,7 +16,8 @@ public class NodeLines : MonoBehaviour
     {
         if(nodeColour == "white")
         {
-            if (PlayerPrefs.GetInt("wht1") == 1 && PlayerPrefs.GetFloat("wht2") == 1)
+            Debug.Log(PlayerPrefs.GetInt("wht1")+" - "+PlayerPrefs.GetInt("wht2"));
+            if (PlayerPrefs.GetInt("wht1") == 1 && PlayerPrefs.GetInt("wht2") == 1)
             {
                 child.SetActive(true);
             }
