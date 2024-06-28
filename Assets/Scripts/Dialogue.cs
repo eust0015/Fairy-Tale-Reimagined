@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,7 +8,17 @@ public class Dialogue : MonoBehaviour
     [SerializeField] private GameObject background;
     [SerializeField] private Dialogue nextDialogue;
     [SerializeField] private Dialogue[] dialogueOptions;
+
+    private void OnEnable()
+    {
+         QuitButton.OnClick += Hide;
+    }
     
+    private void OnDisable()
+    {
+        QuitButton.OnClick -= Hide;
+    }
+
     public void Display()
     {
         background.SetActive(true);

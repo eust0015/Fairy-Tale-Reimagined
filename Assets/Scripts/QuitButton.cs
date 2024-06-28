@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class QuitButton : MonoBehaviour
 {
-  public void Quit()
-  {
-    Application.Quit();
-  }
+    public delegate void ClickEvent();
+    public static event ClickEvent OnClick;
+    
+    public void Click()
+    {
+        OnClick?.Invoke();
+    }
 }
